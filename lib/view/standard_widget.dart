@@ -29,7 +29,7 @@ class _StandardPaymentWidgetAppState extends State<StandardPaymentWidget> implem
   void initState() {
     super.initState();
     final browser = FlutterwaveInAppBrowser(callBack: this);
-    browser.openUrlRequest(urlRequest: URLRequest(url: Uri.parse(widget.webUrl)), options: options);
+    browser.openUrlRequest(urlRequest: URLRequest(url: WebUri.uri(Uri.parse(widget.webUrl))), options: options);
   }
 
   @override
