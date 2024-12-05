@@ -3,9 +3,8 @@ description: Flutterwave's official library that wraps the standard implementati
 version: 1.0.8
 homepage: https://github.com/Flutterwave/flutter_standard
 environment:
-  sdk: ">=2.12.0 <4.0.0"   # Allow compatibility with Dart 2.x and 3.x
-  flutter: ">=3.24.3"       # Ensure compatibility with the required Flutter version
-
+  sdk: ">=2.17.6 <3.0.0"
+ 
 dependencies:
   flutter:
     sdk: flutter
